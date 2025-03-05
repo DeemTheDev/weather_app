@@ -33,7 +33,7 @@ npm install
 yarn install
 ```
 
-Create a .env.local file in the root directory and add my API key if Needed:
+Create a .env.local file in the root directory and add API key (Important!):
 
 ```
 NEXT_PUBLIC_OPEN_WEATHER_MAP_API_KEY='97fa0d68adc1074c49e550fe70320f57'
