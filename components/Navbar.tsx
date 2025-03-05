@@ -58,7 +58,7 @@ const Navbar = () => {
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://github.com/yourusername",
+      href: "https://github.com/DeemTheDev/weather_app",
       external: true,
     },
   ];
