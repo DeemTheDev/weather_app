@@ -1,4 +1,4 @@
-# Intermediate Frontend Developer Technical Test - Open Cities Lab - Nadeem Mohammed
+# Intermediate Frontend Developer - Nadeem Mohammed
 
 ### Live URL: https://weather-app-50637.web.app/
 
