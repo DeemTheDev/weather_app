@@ -17,7 +17,7 @@ import { MapProvider } from "./context/MapContext";
 
 // Dynamically import the SearchModal to avoid SSR issues
 const DynamicSearchModal = dynamic(
-  () => import("@/app/Map/components/SearchModal"),
+  () => import("@/app/map/components/SearchModal"),
   {
     ssr: false,
   }
@@ -150,7 +150,7 @@ const Dashboard = () => {
   // Avoid SSR and import map dynamically
   const Map = useMemo(
     () =>
-      dynamic(() => import("@/app/Map/components/Map"), {
+      dynamic(() => import("@/app/map/components/Map"), {
         loading: () => (
           <p className="flex flex-1 justify-center items-center">
             Map is loading
