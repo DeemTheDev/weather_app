@@ -2,7 +2,6 @@
 import React, { useMemo, useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "@/components/ui/Sidebar";
 import {
-  IconArrowLeft,
   IconBrandGithub,
   IconBrandLinkedin,
   IconHomeFilled,
@@ -10,7 +9,7 @@ import {
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Image from "next/image";
+
 import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -90,7 +89,7 @@ const Page = () => {
                   href: "https://nadeem-mohammed.co.za/",
                   external: true,
                   icon: (
-                    <Image
+                    <img
                       src="/profile-pic.jpg"
                       className="h-7 w-7 flex-shrink-0 rounded-full"
                       width={50}

@@ -1,5 +1,7 @@
 # Intermediate Frontend Developer Technical Test - Open Cities Lab - Nadeem Mohammed
 
+### Live URL: https://weather-app-50637.web.app/
+
 ## Technologies Used
 
 - Next.js: React framework for server-rendered applications

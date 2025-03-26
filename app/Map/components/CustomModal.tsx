@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect } from "react";
+import React, { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { CustomModalProps, WeatherData } from "@/types/types";
@@ -12,7 +12,6 @@ import {
   Wind,
   Thermometer,
   Droplets,
-  ArrowUp,
   X,
   CloudLightning,
 } from "lucide-react";

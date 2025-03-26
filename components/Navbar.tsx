@@ -5,7 +5,7 @@ import {
   IconMap,
   IconHome,
 } from "@tabler/icons-react";
-import Image from "next/image";
+
 import { FloatingDock } from "./ui/FloatingDock";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -24,7 +24,7 @@ const Navbar = () => {
       icon: (
         <IconMap className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "/Map",
+      href: "/map",
     },
     {
       title: "Theme",
@@ -34,7 +34,7 @@ const Navbar = () => {
     {
       title: "Aceternity UI",
       icon: (
-        <Image
+        <img
           src="https://assets.aceternity.com/logo-dark.png"
           width={20}
           height={20}
